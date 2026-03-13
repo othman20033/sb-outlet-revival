@@ -12,8 +12,8 @@ Une solution e-commerce moderne et performante conçue pour la revente de vêtem
 
 ## 🛠️ Stack Technique
 - **Frontend** : React (Vite), TypeScript, Tailwind CSS, shadcn/ui, Framer Motion.
-- **Backend** : Laravel 12 (PHP 8.2+), MySQL/Supabase.
-- **Base de données** : Supabase / PostgreSQL.
+- **Backend** : Laravel 12 (PHP 8.2+).
+- **Base de données** : MySQL.
 
 ## 📦 Installation et Configuration
 
@@ -25,6 +25,8 @@ cd sb-outlet-revival
 
 ### 2. Configuration du Frontend
 ```bash
+cd frontend
+
 # Installer les dépendances
 npm install
 
@@ -55,10 +57,10 @@ php artisan serve
 
 ## 🧪 Tests
 Pour tester le projet localement :
-1. Assurez-vous d'avoir configuré vos clés Supabase dans le fichier `.env` du frontend.
-2. Lancez le serveur frontend (`npm run dev`).
-3. Lancez le serveur backend (`php artisan serve`).
-4. Accédez à l'URL locale (généralement `http://localhost:5173`).
+1. Assurez-vous d'avoir configuré l'URL de l'API dans le fichier `frontend/.env`.
+2. Lancez le serveur frontend (`cd frontend && npm run dev`).
+3. Lancez le serveur backend (`cd backend && php artisan serve`).
+4. Accédez à l'URL locale.
 
 ---
 Développé avec ❤️ par [othman20033](https://github.com/othman20033)

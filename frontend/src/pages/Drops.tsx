@@ -1,4 +1,4 @@
-import DropCountdown from '@/components/DropCountdown';
+import DropCountdown from '@/components/common/DropCountdown';
 import { mockDrop } from '@/data/mock';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';

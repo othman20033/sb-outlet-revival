@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import ProductCard from '@/components/ProductCard';
+import ProductCard from '@/components/common/ProductCard';
 import { useProducts } from '@/contexts/ProductContext';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';

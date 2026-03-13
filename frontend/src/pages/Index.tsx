@@ -1,5 +1,5 @@
-import ProductCard from '@/components/ProductCard';
-import DropCountdown from '@/components/DropCountdown';
+import ProductCard from '@/components/common/ProductCard';
+import DropCountdown from '@/components/common/DropCountdown';
 import { useProducts } from '@/contexts/ProductContext';
 import { mockDrop } from '@/data/mock';
 import { Link } from 'react-router-dom';

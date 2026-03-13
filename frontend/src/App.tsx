@@ -10,16 +10,16 @@ import { OrderProvider } from "@/contexts/OrderContext";
 import ProtectedRoute from "@/components/auth/ProtectedRoute";
 import Layout from "@/components/layout/Layout";
 import AdminLayout from "@/components/layout/AdminLayout";
-import Index from "./pages/Index";
-import Catalogue from "./pages/Catalogue";
-import ProductDetail from "./pages/ProductDetail";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import Drops from "./pages/Drops";
-import OrderTracking from "./pages/OrderTracking";
-import Admin from "./pages/Admin";
-import Login from "./pages/Login";
-import NotFound from "./pages/NotFound";
+import Index from "@/pages/Index";
+import Catalogue from "@/pages/Catalogue";
+import ProductDetail from "@/pages/ProductDetail";
+import Cart from "@/pages/Cart";
+import Checkout from "@/pages/Checkout";
+import Drops from "@/pages/Drops";
+import OrderTracking from "@/pages/OrderTracking";
+import Admin from "@/pages/Admin";
+import Login from "@/pages/Login";
+import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
 
